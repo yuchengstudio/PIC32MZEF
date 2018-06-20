@@ -64,5 +64,29 @@ o Enable Timer3
 
 https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/%E5%9F%BA%E4%BA%8E%E9%9D%9Emicrochip%20demo%E7%A1%AC%E4%BB%B6%E7%9A%84%E4%BE%8B%E7%A8%8B.pdf
 
+本实验使用硬件平台：
+https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosity%20for%20PIC32MZEF.pdf
+
+```
+需要确定内容如下：
+1.系统外部X2时钟是多少? (24MHZ)
+2.
+```
+
+## 3.2 ADC模块配置
+请参考MPLAB Harmony Help中的“MPLAB Harmony ADC Manger User's Guide”
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
