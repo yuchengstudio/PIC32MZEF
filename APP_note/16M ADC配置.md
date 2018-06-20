@@ -57,3 +57,11 @@ o Enable Timer3
 
 ```
 
+# 3. harmony 配置说明
+
+## 3.1 硬件平台的基本配置
+请参考“基于非microchip demo硬件的例程”完成PIC32MZ的基本配置
+https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/%E5%9F%BA%E4%BA%8E%E9%9D%9Emicrochip%20demo%E7%A1%AC%E4%BB%B6%E7%9A%84%E4%BE%8B%E7%A8%8B.pdf
+
+
+
