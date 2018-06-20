@@ -7,7 +7,8 @@
 ```
 object: 16M ADC to sample a 2M signal.
 
-The max throughput is achievable using all the ADC tied to the same input and setting everything up to make sure everything lines up correctly. 
+The max throughput is achievable using all the ADC tied to the same input and setting everything up to make 
+sure everything lines up correctly. 
 The maximum rate for a single channel is the 5 Msps that you discovered in your description. 
 
 Meaning, he cannot achieve the 16 MSPS ADC sampling rate using just one channel
@@ -15,9 +16,14 @@ Meaning, he cannot achieve the 16 MSPS ADC sampling rate using just one channel
 For reference, here is the theory for getting a higher sample rate:
 <<<<<<<<<>>>>>>>>>>>
 Consider ADC1, ADC2, ADC3, ADC4 configured to sample and convert pins AN0, AN1, AN3, AN3 respectively. 
-The minimum sample time for 12-bit and this mode would be 5TAD. With an ADC clock of 50MHz, TAD=20ns. So 5TAD = 100ns. 
+The minimum sample time for 12-bit and this mode would be 5TAD. With an ADC clock of 50MHz, TAD=20ns. 
+So 5TAD = 100ns. 
 
-The operation is that AN0 is sampled for 5TAD(100ns) and then converted. At the end of the sampling, AN1 starts sampling and same for AN2 and AN3. By the time AN3 sampling has completed, AN0 conversion has completed and can be sampled again. In this way, the 4 analog inputs are cascaded and all sampling at 100ns (10Msps). 
+The operation is that AN0 is sampled for 5TAD(100ns) and then converted. At the end of the sampling, 
+AN1 starts sampling and same for AN2 and AN3. By the time AN3 sampling has completed, AN0 conversion 
+has completed and can be sampled again. In this way, the 4 analog inputs are cascaded and all sampling 
+at 100ns (10Msps). 
+
 For 10-bit and 8-bit resolution, the rate can be increased because 4TAD or 3TAD can be used respectively. 
 
 
