@@ -76,6 +76,23 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
 ## 3.2 ADC模块配置
 请参考MPLAB Harmony Help中的“MPLAB Harmony ADC Manger User's Guide”
 
+### 3.2.1 介绍
+```
+The overall development flow of ADC Manager consists of: 
+ a.General clock settings 
+ b.Reference Voltage settings 
+ c.Individual ADC settings, which include: 
+    Input selection, including single-ended or differential mode 
+    Resolution selection 
+    Sampling Rate with Auto-Calculate feature 
+    Trigger source selection 
+    Interrupt or Polling selection 
+ d.Enabling individual inputs for the shared ADC 
+ e.Source selection for scan trigger 
+```
+
+
+
 
 
 
