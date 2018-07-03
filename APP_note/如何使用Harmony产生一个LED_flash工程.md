@@ -50,4 +50,3 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  | 5 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_019.jpg) | 点击代码生成| 
  
 
-可以看到该功能脚可以配置在RE6，RC4，RC6，RB3，RB0，RD15的PIN口。 2.一旦我选定了RC4作为C1RX口，可以看见功能脚其他的映射PIN口就变灰色，也就是说该功能脚不能再映射到其他PIN口了，同时,RC4也不能作为其他功能脚的映射，而且RC4这时已经自动更名为C1RX. 【备注 Pin Table窗口是用以配置外设功能脚的，如果只是为了设置一个普通的I/O线，不需要在此设置，可以关注步骤3】
