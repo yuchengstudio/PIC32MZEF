@@ -24,7 +24,7 @@
  | - | :----- | :-- | 
  | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_004.jpg) | 此图是PIC32MZ内部时钟的分布图，可以做灵活配置，产生不同的时钟应用，以下的步骤只是比较常用的配置模式之一 | 
  | 2 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_005.jpg) | 选择系统时钟源，如红线标注，FNOSC选择SPLL, 系统时钟源就会由SPLL（系统锁相环）提供主时钟 | 
- | 3 |  |  |
+ | 3 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_006.jpg) | POSCMOD选EC,表示选择外部晶体，Primary Oscillator 选择框里应该填写相应外部振荡器的频率，点击auto-Caculate可以进行PLL时钟自动计算，如图5所示，在这里可以自定义SPLL输出的时钟。 |
 
 
 
