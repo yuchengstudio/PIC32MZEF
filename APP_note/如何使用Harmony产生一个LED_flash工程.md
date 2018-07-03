@@ -5,10 +5,10 @@
 
 # 1. 概述 
      本文的目的在于使用Harmony从“0”开始创建一个全新的应用工程，比如产生一个LED 500ms闪烁应用程序。
+    【说明】本实验基于microchip提供的开发板 Curiosity PIC32MZ EF, 也完全可以使用自己绘制的硬件。
     
 
 # 2. 一级目录语法
-![images](https://github.com/yuchengstudio/Github-/blob/master/pictures/mulu_002.jpg)
 
 
 ## 2.1. 二级目录语法
