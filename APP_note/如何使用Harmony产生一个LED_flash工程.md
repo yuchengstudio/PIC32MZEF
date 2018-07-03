@@ -28,7 +28,7 @@
  | 4 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_007.jpg) |  |
  | 5 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_008.jpg) | 参照以上步骤，一个简单的带系统锁相环的系统时钟就配置好了，点击保存按钮，系统会保证相关配置信息。 |
  | 6 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_009.jpg) | 参照以上步骤，一个简单的带系统锁相环的系统时钟就配置好了，点击保存按钮，系统会保证相关配置信息。 |
- | 7 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_010.jpg) | 回到配置树窗口，器件配置的DEVCFG0中的 ICE\ICD Comm channel select(ICESEL)非常关键，必须根据实际原理选择相应的编程口，否则编程器无法正确连接芯片。 |
+ | 7 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_010.jpg) | 回到配置树窗口，器件配置的DEVCFG0中的 ICE\ICD Comm channel select(ICESEL)非常关键，必须根据实际原理选择相应的编程口，否则编程器无法正确连接芯片。curiosity 的板子默认是ICS_PGx1 所以这里不用做更改。 |
  
  
 
