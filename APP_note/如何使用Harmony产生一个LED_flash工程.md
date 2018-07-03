@@ -14,8 +14,8 @@
  | 步骤 | 图示 | 说明 |
  | - | :----- | :-- | 
  | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_001.jpg) | 在MPLAB X IDE环境下创建32-bit MPLAB Harmony Project的工程 | 
- | 2 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_002.jpg) | 请根据图示说明进行相应的选择 | 
- | 3 | $1 | 7 |
+ | 2 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_002.jpg) | 请根据图示说明进行相应的选择，选择完后点击“finish”按键，会自动产生一个harmony配置环境，参考步骤3. | 
+ | 3 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_003.jpg) | Harmony配置的工作主要在配置区域完成，对不同应用的需求，有相应的配置。后续步骤会根据此章节要完成LED闪烁的功能做相应的harmony配置。 |
 
 
 
