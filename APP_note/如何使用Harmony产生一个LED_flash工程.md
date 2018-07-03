@@ -27,6 +27,7 @@
  | 3 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_006.jpg) | POSCMOD选EC,表示选择外部晶体，Primary Oscillator 选择框里应该填写相应外部振荡器的频率，点击auto-Caculate可以进行PLL时钟自动计算，如步骤4所示，在这里可以自定义SPLL输出的时钟。 |
  | 4 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_007.jpg) |  |
  | 5 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_008.jpg) | 参照以上步骤，一个简单的带系统锁相环的系统时钟就配置好了，点击保存按钮，系统会保证相关配置信息。 |
+ | 6 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_009.jpg) | 参照以上步骤，一个简单的带系统锁相环的系统时钟就配置好了，点击保存按钮，系统会保证相关配置信息。 |
  
 
 
