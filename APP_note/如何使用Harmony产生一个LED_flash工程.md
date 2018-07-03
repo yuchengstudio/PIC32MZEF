@@ -9,8 +9,8 @@
     本文的目的在于使用Harmony从“0”开始创建一个全新的应用工程，比如产生一个LED 500ms闪烁应用程序。
 【说明】本实验基于microchip提供的开发板 Curiosity PIC32MZ EF, 也完全可以使用自己绘制的硬件。
 ```
-    参考文件如下链接
-    https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ%20EF%20Curiosity%20user%20guider.pdf
+    Curiosity PIC32MZ EF参考文件如下链接
+https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ%20EF%20Curiosity%20user%20guider.pdf
     
     
 
