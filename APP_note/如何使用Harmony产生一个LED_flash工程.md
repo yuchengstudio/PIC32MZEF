@@ -1,7 +1,7 @@
 * [1. 概述](#1-概述)
 * [2. 如何建立一个空的工程，及如何启动Harmony](#2-如何建立一个空的工程，及如何启动Harmony)  
-  * [2.1 二级目录语法](#21-二级目录语法)
-    * [2.1.1 三级目录语法](#211-三级目录语法)
+* [3. 如何建立一个空的工程，及如何启动Harmony](#2-如何建立一个空的工程，及如何启动Harmony)  
+
 
 # 1. 概述 
 ```
@@ -18,16 +18,16 @@
  | 3 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_003.jpg) | Harmony配置的工作主要在配置区域完成，对不同应用的需求，有相应的配置。后续步骤会根据此章节要完成LED闪烁的功能做相应的harmony配置。 |
 
 
+# 3.一个工程的基本配置，包括时钟配置，熔丝位配置
+
+ | 步骤 | 图示 | 说明 |
+ | - | :----- | :-- | 
+ | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_004.jpg) | 此图是PIC32MZ内部时钟的分布图，可以做灵活配置，产生不同的时钟应用，以下的步骤只是比较常用的配置模式之一 | 
+ | 2 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_005.jpg) |  | 
+ | 3 |  |  |
 
 
 
 
 
-
-## 2.1. 二级目录语法
-    请参照一级目录语法
-
-
-### 2.1.1. 三级目录语法
-    请参照一级目录语法
 
