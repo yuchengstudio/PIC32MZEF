@@ -12,8 +12,8 @@
 
 # 2. 如何建立一个空的工程，及如何启动Harmony
  | 步骤 | 图示 | 说明 |
- | - | :----- | :---- | 
- | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_001.jpg) | 5 | 
+ | - | :----- | :--- | 
+ | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_001.jpg) | 在MPLAB X IDE环境下创建32-bit MPLAB Harmony Project的工程 | 
  | 2 | $1 | 6 | 
  | 3 | $1 | 7 |
 
