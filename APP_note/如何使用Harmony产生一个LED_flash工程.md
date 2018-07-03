@@ -9,6 +9,9 @@
     本文的目的在于使用Harmony从“0”开始创建一个全新的应用工程，比如产生一个LED 500ms闪烁应用程序。
 【说明】本实验基于microchip提供的开发板 Curiosity PIC32MZ EF, 也完全可以使用自己绘制的硬件。
 ```
+    参考文件如下链接
+    https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ%20EF%20Curiosity%20user%20guider.pdf
+    
     
 
 # 2.如何建立一个空的工程，及如何启动Harmony
@@ -40,5 +43,7 @@
  | - | :----- | :-| 
  | 0 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_011.jpg) | 图形化管脚配置器的启动（请参考图中 “MPLAB Harmony Graphical Pin Manager”）章节相关内容。 | 
  | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_013.jpg) | 在配置树窗口中选择“Pin Diagram窗口”。 | 
- | 2 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_014.jpg) | 1.找到C1RX功能脚，可以看到该功能脚可以配置在RE6，RC4，RC6，RB3，RB0，RD15的PIN口。 2.一旦我选定了RC4作为C1RX口，可以看见功能脚其他的映射PIN口就变灰色，也就是说该功能脚不能再映射到其他PIN口了，同时,RC4也不能作为其他功能脚的映射，而且RC4这时已经自动更名为C1RX. | 
+ | 2 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_014.jpg) | 1.找到C1RX功能脚，可以看到该功能脚可以配置在RE6，RC4，RC6，RB3，RB0，RD15的PIN口。 2.一旦我选定了RC4作为C1RX口，可以看见功能脚其他的映射PIN口就变灰色，也就是说该功能脚不能再映射到其他PIN口了，同时,RC4也不能作为其他功能脚的映射，而且RC4这时已经自动更名为C1RX. 【备注 Pin Table窗口是用以配置外设功能脚的，如果只是为了设置一个普通的I/O线，不需要在此设置，可以关注步骤3】| 
+ | 3 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_013.jpg) | 在配置树窗口中选择“Pin Diagram窗口”。 | 
+ 
 
