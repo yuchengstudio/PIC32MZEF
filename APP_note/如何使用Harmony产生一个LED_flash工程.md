@@ -69,6 +69,7 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  | 步骤 | 图示 | 说明 |
  | - | :----- | :- | 
  |0|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_025.jpg)|要完成我们最终的应用代码，我们只要修改LED_FLASH.h, LED_FLASH.c相关的修改。注意LED_FLASH这个名字是可以在harmony配置树下修改的。|
- |1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_026.jpg)|在状态机的枚举类型中添加应用程序的“状态”，状态的定义根据应用程序的实际执行情况定义。在LED_Flash应用中无非就两个这状态：1.延时启动。2.延时完成【这个时候启动LED翻转】|
+ |1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_026.jpg)|在状态机的枚举结构体中添加应用程序的“状态”，状态的定义根据应用程序的实际执行情况定义。在LED_Flash应用中无非就两个这状态：1.延时启动。2.延时完成【这个时候启动LED翻转】|
+ |2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_027.jpg)|枚举类型的定义会在LED_FLASH.c中进行。|
  
  
