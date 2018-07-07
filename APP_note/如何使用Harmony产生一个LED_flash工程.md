@@ -81,3 +81,4 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  |6.3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_033.jpg)|这里是应用程序初始化的执行函数，需要根据应用需求更改，其中状态机的初始化系统已经自动完成“led_flashData.state = LED_FLASH_STATE_INIT;”，用户根据应用的需要添加其他初始化，比如这里的sysTMRHandle = SYS_TMR_HANDLE_INVALID|
 |7|状态机工作流程||
 |7.1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_036.jpg)||
+|7.2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_038.jpg)|在定时器工作状态下启动定时器，并判断定定时是否完成，完成时状态机切换到定时器工作完成状态|
