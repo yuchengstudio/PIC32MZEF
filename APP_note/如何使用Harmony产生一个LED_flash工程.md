@@ -52,7 +52,9 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  | 步骤 | 图示 | 说明 |
  | - | :----- | :- | 
  |0|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_021.jpg)|在原有的项目工程上启动Harmony,在“配置树”中找到“timer”,路径为“MPLAB Harmony & Application Configuration” ——>Harmony Framework Configuration ——> System Servics ——> Timer|
-
+ |1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_022.jpg)||
+ |2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_023.jpg)||
+ |3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_024.jpg)||
 
 
 
