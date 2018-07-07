@@ -3,6 +3,7 @@
 * [3. 一个工程的基本配置，包括时钟配置，熔丝位配置](#3-一个工程的基本配置，包括时钟配置，熔丝位配置)  
 * [4. 简单I/O的配置](#4-简单I/O的配置)  
 * [5. 添加定时器驱动](#5-添加定时器驱动)  
+* [6. 如何在应用代码中调用驱动](#6-如何在应用代码中调用驱动)  
 # 1. 概述 
 ```
     本文的目的在于使用Harmony从“0”开始创建一个全新的应用工程，比如产生一个LED 500ms闪烁应用程序。
@@ -57,5 +58,7 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  |3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_024.jpg)||
 
 
-
-
+# 6.如何在应用代码中调用驱动
+ | 步骤 | 图示 | 说明 |
+ | - | :----- | :- | 
+ ||||
