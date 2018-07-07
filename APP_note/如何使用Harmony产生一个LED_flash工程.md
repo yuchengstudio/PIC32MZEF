@@ -68,4 +68,4 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  
  | 步骤 | 图示 | 说明 |
  | - | :----- | :- | 
- |0|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_025.jpg)||
+ |0|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_025.jpg)|要完成我们最终的应用代码，我们只要修改LED_FLASH.h, LED_FLASH.c相关的修改。注意LED_FLASH这个名字是可以在harmony配置树下修改的。|
