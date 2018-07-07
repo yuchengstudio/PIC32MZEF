@@ -59,6 +59,8 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
 
 
 # 6.如何在应用代码中调用驱动
+ 参考链接：
+ http://blog.163.com/yucheng_studio/blog/getBlog.do?bid=fks_084066083086085065084083095069072084087075081086082067083084
  | 步骤 | 图示 | 说明 |
  | - | :----- | :- | 
  ||||
