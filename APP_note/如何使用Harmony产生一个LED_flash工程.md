@@ -80,4 +80,4 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  |6.2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_032.jpg)|初始化的主函数在system_init.c这个文件里，这里包含了系统所有的初始化工作，包括harmony自动生成的，以及应用程序初始化的接口函数LED_FLASH_Initialize（），同样，在这里我们也不需要做任何工作|
  |6.3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_033.jpg)|这里是应用程序初始化的执行函数，需要根据应用需求更改，其中状态机的初始化系统已经自动完成“led_flashData.state = LED_FLASH_STATE_INIT;”，用户根据应用的需要添加其他初始化，比如这里的sysTMRHandle = SYS_TMR_HANDLE_INVALID|
 |7|状态机工作流程||
-|7.1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_034.jpg)||
+|7.1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_036.jpg)||
