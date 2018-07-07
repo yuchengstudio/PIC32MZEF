@@ -51,7 +51,7 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
 # 5.添加定时器驱动
  | 步骤 | 图示 | 说明 |
  | - | :----- | :- | 
- |0|||
+ |0|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_019.jpg)|在原有的项目工程上启动Harmony,在“配置树”中找到“timer”,路径为“MPLAB Harmony & Application Configuration” ——>Harmony Framework Configuration ——> System Servics ——> Timer|
 
 
 
