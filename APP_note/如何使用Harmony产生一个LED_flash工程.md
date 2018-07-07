@@ -62,7 +62,9 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  参考链接：
  http://blog.163.com/yucheng_studio/blog/getBlog.do?bid=fks_084066083086085065084083095069072084087075081086082067083084
  |说明|
+ |-|
  |通过以上步骤，我们已经建立了基本的软件框架，同时添加了I/O口的配置，点亮了LED1，而且我们还添加了Timer的定时器服务驱动，接下来要实现如何把他们串联起来实现，LED灯闪烁的应用代码。|
+ 
  | 步骤 | 图示 | 说明 |
  | - | :----- | :- | 
  ||||
