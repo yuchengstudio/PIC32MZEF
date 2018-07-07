@@ -73,5 +73,6 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  |2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_027.jpg)|枚举类型的定义会在LED_FLASH.c中进行。|
  |3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_028.jpg)|LED_FLASH工程主循环的状态机机制，及在相应状态下都需要添加什么工作。|
  |备注|源文件参考：https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/LED_FLASH%E5%B7%A5%E7%A8%8B%E4%B8%BB%E5%BE%AA%E7%8E%AF%E7%8A%B6%E6%80%81%E6%9C%BA%E5%88%87%E6%8D%A2%E6%B5%81%E7%A8%8B.vsdx||
+ |4|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_029.jpg)|添加定时器的句柄变量，最好按照自动生成的代码原有的位置格式添加相关数据|
  
  
