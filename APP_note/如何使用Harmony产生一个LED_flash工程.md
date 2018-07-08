@@ -2,8 +2,8 @@
 * [2. 如何建立一个空的工程，及如何启动Harmony](#2-如何建立一个空的工程，及如何启动Harmony)  
 * [3. 一个工程的基本配置，包括时钟配置，熔丝位配置](#3-一个工程的基本配置，包括时钟配置，熔丝位配置)  
 * [4. 简单I/O的配置](#4-简单I/O的配置)  
-
-
+* [5. 添加定时器驱动](#5-添加定时器驱动)  
+* [6. 如何在应用代码中调用驱动](#6-如何在应用代码中调用驱动)  
 # 1. 概述 
 ```
     本文的目的在于使用Harmony从“0”开始创建一个全新的应用工程，比如产生一个LED 500ms闪烁应用程序。
@@ -11,6 +11,11 @@
 ```
     Curiosity PIC32MZ EF参考文件如下链接
 https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ%20EF%20Curiosity%20user%20guider.pdf
+
+```
+项目视频演示效果如下：
+```
+https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_start_001.mp4
     
     
 
@@ -37,7 +42,7 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  
 
 
-# 3.简单I/O的配置
+# 4.简单I/O的配置
 
  | 步骤 | 图示 | 说明 |
  | - | :----- | :- | 
@@ -45,8 +50,46 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_013.jpg) | 在配置树窗口中选择“Pin Diagram窗口”。 | 
  | 2 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_014.jpg) | | 
  |   |1.找到C1RX功能脚，可以看到该功能脚可以配置在RE6，RC4，RC6，RB3，RB0，RD15的PIN口。 2.一旦我选定了RC4作为C1RX口，可以看见功能脚其他的映射PIN口就变灰色，也就是说该功能脚不能再映射到其他PIN口了，同时,RC4也不能作为其他功能脚的映射，而且RC4这时已经自动更名为C1RX. 【备注 Pin Table窗口是用以配置外设功能脚的，如果只是为了设置一个普通的I/O线，不需要在此设置，可以关注步骤3】
- | 3 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_020.jpg) ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_016.jpg)|  | 
+ | 3 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_020.jpg) ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_016.jpg) |  | 
  | 4 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_018.jpg) | 保持| 
  | 5 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_019.jpg) | 点击代码生成| 
+ |6|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_041.jpg)|为了在应用代码中直接可以调用与LED1相关的函数，请确保勾选Function选项的GPIO_OUT，这样该功能引脚就正式打开了|
+ |7|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_040.jpg)|可以观察勾选Function选项的GPIO_OUT后，harmony会自动在system_config.h中添加与LED1 pin脚相关的函数，方便后续应用程序调用。|
  
+# 5.添加定时器驱动
+ | 步骤 | 图示 | 说明 |
+ | - | :----- | :- | 
+ |0|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_021.jpg)|在原有的项目工程上启动Harmony,在“配置树”中找到“timer”,路径为“MPLAB Harmony & Application Configuration” ——>Harmony Framework Configuration ——> System Servics ——> Timer|
+ |1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_022.jpg)|保存配置，并启动Generate Project,这里我们可以选择“Prompt merge for All Differences” 这样我们可以清晰得看清楚新产生的代码会做哪些细节更改。|
+ |2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_023.jpg)||
+ |3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_024.jpg)||
+
+
+# 6.如何在应用代码中调用驱动
+ 参考链接：
+ http://blog.163.com/yucheng_studio/blog/getBlog.do?bid=fks_084066083086085065084083095069072084087075081086082067083084
+ 
+ |说明|
+ |-|
+ |通过以上步骤，我们已经建立了基本的软件框架，同时添加了I/O口的配置，点亮了LED1，而且我们还添加了Timer的定时器服务驱动，接下来要实现如何把他们串联起来实现，LED灯闪烁的应用代码。|
+ 
+ | 步骤 | 图示 | 说明 |
+ | - | :----- | :- | 
+ |0|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_025.jpg)|要完成我们最终的应用代码，我们只要修改LED_FLASH.h, LED_FLASH.c相关的修改。注意LED_FLASH这个名字是可以在harmony配置树下修改的。|
+ |1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_035.jpg)|在状态机的枚举结构体中添加应用程序的“状态”，状态的定义根据应用程序的实际执行情况定义。在LED_Flash应用中无非就两个这状态：1.延时启动。2.延时完成【这个时候启动LED翻转】|
+ |2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_027.jpg)|枚举类型的定义会在LED_FLASH.c中进行。|
+ |3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_028.jpg)|LED_FLASH工程主循环的状态机机制，及在相应状态下都需要添加什么工作。|
+ |备注|源文件参考：https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/LED_FLASH%E5%B7%A5%E7%A8%8B%E4%B8%BB%E5%BE%AA%E7%8E%AF%E7%8A%B6%E6%80%81%E6%9C%BA%E5%88%87%E6%8D%A2%E6%B5%81%E7%A8%8B.vsdx||
+ |4|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_029.jpg)|添加定时器的句柄变量，最好按照自动生成的代码原有的位置格式添加相关数据|
+ |5|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_030.jpg)|句柄数据类型的定义在相关模块的.h文件下可以找到，这个很重要，以后使用句柄的时候都可以找到相应的数据类型|
+ |6|程序初始化流程||
+ |6.1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_031.jpg)|初始化从main.c函数开始，这里不需要用户做任何工作|
+ |6.2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_032.jpg)|初始化的主函数在system_init.c这个文件里，这里包含了系统所有的初始化工作，包括harmony自动生成的，以及应用程序初始化的接口函数LED_FLASH_Initialize（），同样，在这里我们也不需要做任何工作|
+ |6.3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_033.jpg)|这里是应用程序初始化的执行函数，需要根据应用需求更改，其中状态机的初始化系统已经自动完成“led_flashData.state = LED_FLASH_STATE_INIT;”，用户根据应用的需要添加其他初始化，比如这里的sysTMRHandle = SYS_TMR_HANDLE_INVALID|
+|7|状态机工作流程||
+|7.1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_036.jpg)||
+|7.2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_039.jpg)|在定时器工作状态下启动定时器|
+|7.3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_043.jpg)|等待定时时间到达，一旦时间到达，启动LED电平翻转，并将状态机切换到启动定时器状态。|
+|tips|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_042.jpg)|因为我们之前在“Pin Setting”配置的时候配置了LED1这个引脚，这个时候我们在整个项目里搜索“LED1”，可以找到控制它的所有函数，直接拿过来用就行|
+|8|https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_start_001.mp4|项目最终结果视频演示|
 
