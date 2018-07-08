@@ -45,9 +45,11 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
  | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_013.jpg) | 在配置树窗口中选择“Pin Diagram窗口”。 | 
  | 2 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_014.jpg) | | 
  |   |1.找到C1RX功能脚，可以看到该功能脚可以配置在RE6，RC4，RC6，RB3，RB0，RD15的PIN口。 2.一旦我选定了RC4作为C1RX口，可以看见功能脚其他的映射PIN口就变灰色，也就是说该功能脚不能再映射到其他PIN口了，同时,RC4也不能作为其他功能脚的映射，而且RC4这时已经自动更名为C1RX. 【备注 Pin Table窗口是用以配置外设功能脚的，如果只是为了设置一个普通的I/O线，不需要在此设置，可以关注步骤3】
- | 3 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_020.jpg) ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_016.jpg)|  | 
+ | 3 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_020.jpg) ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_016.jpg) |  | 
  | 4 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_018.jpg) | 保持| 
  | 5 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_019.jpg) | 点击代码生成| 
+ |6|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_041.jpg)|为了在应用代码中直接可以调用与LED1相关的函数，请确保勾选Function选项的GPIO_OUT，这样该功能引脚就正式打开了|
+ |7|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_040.jpg)|可以观察勾选Function选项的GPIO_OUT后，harmony会自动在system_config.h中添加与LED1 pin脚相关的函数，方便后续应用程序调用。|
  
 # 5.添加定时器驱动
  | 步骤 | 图示 | 说明 |
