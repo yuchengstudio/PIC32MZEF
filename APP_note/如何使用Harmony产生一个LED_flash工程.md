@@ -85,3 +85,4 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
 |7.1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_036.jpg)||
 |7.2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_039.jpg)|在定时器工作状态下启动定时器|
 |7.3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_043.jpg)|等待定时时间到达，一旦时间到达，启动LED电平翻转，并将状态机切换到启动定时器状态。|
+|tips|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_042.jpg)|因为我们之前在“Pin Setting”配置的时候配置了LED1这个引脚，这个时候我们在整个项目里搜索“LED1”，可以找到控制它的所有函数，直接拿过来用就行|
