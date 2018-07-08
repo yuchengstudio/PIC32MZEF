@@ -84,4 +84,4 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/PIC32MZ
 |7|状态机工作流程||
 |7.1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_036.jpg)||
 |7.2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_039.jpg)|在定时器工作状态下启动定时器|
-|7.3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_039.jpg)|等待定时时间到达，一旦时间到达，启动LED电平翻转，并将状态机切换到启动定时器状态。|
+|7.3|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/harmony_start_043.jpg)|等待定时时间到达，一旦时间到达，启动LED电平翻转，并将状态机切换到启动定时器状态。|
