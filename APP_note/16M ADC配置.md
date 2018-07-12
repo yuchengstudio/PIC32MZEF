@@ -92,8 +92,17 @@ The overall development flow of ADC Manager consists of:
  d.Enabling individual inputs for the shared ADC 
  e.Source selection for scan trigger 
 ```
-
-
+  参考harmony下的ADC例子程序“adc_pot”下的ADC配置树信息
+  ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_001.jpg)
+  
+  
+  
+  
+ |  | 价格 | 数量 |
+ | -------- | -----: | :----: | 
+ | 香蕉 | $1 | 5 | 
+ | 苹果 | $1 | 6 | 
+ | 草莓 | $1 | 7 |
 
 
 
