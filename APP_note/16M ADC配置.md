@@ -79,6 +79,13 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
 请参考MPLAB Harmony Help中的“MPLAB Harmony ADC Manger User's Guide”
 ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_002.jpg)
 
+## 3.3 如何构建ADC应用程序
+ | 步骤 | 图示 | 说明 |
+ | --- | --- | --- | 
+ | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_002.jpg) | 添加ADC应用 | 
+ | tips | $1 | 6 | 
+ | 草莓 | $1 | 7 |
+
 ### 3.2.1 介绍
 ```
 The overall development flow of ADC Manager consists of: 
