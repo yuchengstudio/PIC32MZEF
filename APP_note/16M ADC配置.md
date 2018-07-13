@@ -77,6 +77,7 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
 
 ## 3.2 ADC模块配置
 请参考MPLAB Harmony Help中的“MPLAB Harmony ADC Manger User's Guide”
+![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_002.jpg)
 
 ### 3.2.1 介绍
 ```
