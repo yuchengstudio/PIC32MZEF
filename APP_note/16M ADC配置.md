@@ -93,6 +93,7 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
  
  | 5 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_007.jpg) | 根据实际应用需要在数据结构中添加应用数据 | 
  | tips | ``` 为什么需要这些数据，请参考步骤4的处理流程描述```|  | 
+ 
  | 6 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_008.jpg) | 在ADC中断中置数据有效标志 | 
  | tips | ``` 留意文件在工程文件夹中的位置```|  | 
  
