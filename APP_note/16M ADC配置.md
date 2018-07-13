@@ -96,8 +96,8 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
  | tips | ``` 留意文件在工程文件夹中的位置```|  | 
  | 7 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_009.jpg) | 项目完成，编译☺ | 
  | tips | ``` 不幸是发生了，编译出错，怎么可能呢？仔细分析，原来adc_16mData这个数据结构在中断服务函数里不能被识别。```|  | 
- | 8 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_009.jpg) | 搞定 | 
- | tips | ``` 只要在ADC_16M.h文件里把在ADC_16M.c中定义的数据ADC_16M_DATA adc_16mData重新声明下就行，格式为： extern ADC_16M_DATA adc_16mData;;```|  | 
+ | 8 | 空缺| 搞定 | 
+ | tips | ``` 只要在ADC_16M.h文件里把在ADC_16M.c中定义的数据ADC_16M_DATA adc_16mData重新声明下就行，格式为： extern ADC_16M_DATA adc_16mData;```|  | 
  
 
 ### 3.2.1 介绍
