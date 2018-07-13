@@ -82,8 +82,8 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
 ## 3.3 如何构建ADC应用程序
  | 步骤 | 图示 | 说明 |
  | --- | --- | --- | 
- | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_002.jpg) | 添加ADC应用 | 
- | tips | $1 | 6 | 
+ | 1 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_003.jpg) | 添加ADC应用 | 
+ | tips | ```1.在Number of applications中填入工程需要的应用数据，比如这里就有LED_FLASH, ADC_16M两个大的应用，注意如箭头所示Harmony配置树与实际工程文件的一一对应关系 ```|  | 
  | 草莓 | $1 | 7 |
 
 ### 3.2.1 介绍
