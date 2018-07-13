@@ -94,8 +94,8 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
  | tips | ``` 为什么需要这些数据，请参考步骤4的处理流程描述```|  | 
  | 6 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_008.jpg) | 在ADC中断中置数据有效标志 | 
  | tips | ``` 留意文件在工程文件夹中的位置```|  | 
- | 7 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_008.jpg) | 项目完成，编译☺ | 
- | tips | ``` 留意文件在工程文件夹中的位置```|  | 
+ | 7 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_009.jpg) | 项目完成，编译☺ | 
+ | tips | ``` 不幸是发生了，编译出错，怎么可能呢？仔细分析，原来adc_16mData这个数据结构在中断服务函数里不能被识别。```|  | 
  
  
 
