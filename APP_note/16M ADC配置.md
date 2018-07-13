@@ -92,7 +92,7 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
  | tips | ``` 在这一步只要处理两个事情：1.判断数据是否有效， 2.数据有效就通过API读数据【注意，这里的数据有效标志，以及数据缓冲区都是要客户自定义的，请参考步骤5】```|  | 
 
  
- | 5 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_007.jpg) | 添加应用数据 | 
+| 5 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_007.jpg) | 初始化状态机下的工作 | 
  | tips | ``` 为什么需要这些数据，请参考步骤4的处理流程描述```|  | 
  
  | 6 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_008.jpg) | 在ADC中断中置数据有效标志 | 
