@@ -122,7 +122,6 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
  | --- | --- | --- | 
  |1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_017.jpg) ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_016.jpg)  ||
  | tips | ``` 如ADC配置树所示，触发源TRGSRC0选择的是GLOBAL_SOFTWARE_EDGE,所以才有了应用代码中软件触发的需要DRV_ADC_Start(),在接下来的实验里我们要进一步改造，使用定时器的比较输出作为ADC的触发源【感兴趣的朋友可以在ADC_configuration_lab1工程中注释掉DRV_ADC_Start()，就能发现ADC中断无法产生了】```|  |
- 
  | 2 | ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_018.jpg) | 配置为定时器匹配触发 | 
  | tips | ``` ```|  |
   
