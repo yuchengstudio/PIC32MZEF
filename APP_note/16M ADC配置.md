@@ -68,9 +68,13 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/%E5%A6%82%E4%BD%
     本实验使用硬件平台：
 https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosity%20for%20PIC32MZEF.pdf
 
-    参考文献
-    1.Harmony_Labs_ADC_UART_USB_Bootloader_v1_07_01【参考其中ADC配置，及应用实现相关内容】
-https://github.com/yuchengstudio/PIC32MZEF/blob/master/reference/Harmony_Labs_ADC_UART_USB_Bootloader_v1_07_01.pdf
+  
+ | 参考文献名称 | 链接地址 | 说明 |
+ | ----- | -----: | :----: | 
+ | Harmony_Labs_ADC_UART_USB_Bootloader_v1_07_01 | https://github.com/yuchengstudio/PIC32MZEF/blob/master/reference/Harmony_Labs_ADC_UART_USB_Bootloader_v1_07_01.pdf | 参考如何构建应用代码 | 
+ | Section 22. 12-bit High-Speed Successive Approximation Register (SAR) Analog-to-Digital Converter (ADC) | https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/60001344D.pdf | 用以分析ADC配置内容 | 
+ |  |  |  |
+
 ```
 需要确定内容如下：
 1.系统外部X2时钟是多少? (24MHZ)
