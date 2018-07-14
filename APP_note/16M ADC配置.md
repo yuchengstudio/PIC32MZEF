@@ -70,7 +70,7 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
 
   
  | 参考文献名称 | 链接地址 | 说明 |
- | ----- | -----: | :----: | 
+ | ----- | ----- | ---- | 
  | Harmony_Labs_ADC_UART_USB_Bootloader_v1_07_01 | https://github.com/yuchengstudio/PIC32MZEF/blob/master/reference/Harmony_Labs_ADC_UART_USB_Bootloader_v1_07_01.pdf | 参考如何构建应用代码 | 
  | Section 22. 12-bit High-Speed Successive Approximation Register (SAR) Analog-to-Digital Converter (ADC) | https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/60001344D.pdf | 用以分析ADC配置内容 | 
  |  |  |  |
