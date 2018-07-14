@@ -87,7 +87,10 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
 
  | 步骤 | 图示 | 说明 |
  | --- | --- | --- | 
- |1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_013.jpg) |配置基本参数|
+ |1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_013.jpg) |配置ADC基本参数|
+ |tips|这里的参数意义请参考“Section 22. 12-bit High-Speed Successive Approximation Register (SAR) Analog-to-Digital Converter (ADC)”文档||
+ |2|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_014.jpg) |ADC输入口配置|
+ |tips|这里的参数意义请参考“Section 22. 12-bit High-Speed Successive Approximation Register (SAR) Analog-to-Digital Converter (ADC)”文档||
 
 ## 3.3 如何构建ADC应用程序
  | 步骤 | 图示 | 说明 |
