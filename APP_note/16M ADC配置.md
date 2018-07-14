@@ -60,15 +60,17 @@ o Enable Timer3
 # 3. harmony 配置说明
 
 ## 3.1 硬件平台的基本配置
-请参考“如何使用Harmony产生一个LED_flash工程.md”完成PIC32MZ的基本配置
-
+    请参考“如何使用Harmony产生一个LED_flash工程.md”完成PIC32MZ的基本配置
 https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Harmony%E4%BA%A7%E7%94%9F%E4%B8%80%E4%B8%AALED_flash%E5%B7%A5%E7%A8%8B.md
 
 
 
-本实验使用硬件平台：
+    本实验使用硬件平台：
 https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosity%20for%20PIC32MZEF.pdf
 
+    参考文献
+    1.Harmony_Labs_ADC_UART_USB_Bootloader_v1_07_01【参考其中ADC配置，及应用实现相关内容】
+https://github.com/yuchengstudio/PIC32MZEF/blob/master/reference/Harmony_Labs_ADC_UART_USB_Bootloader_v1_07_01.pdf
 ```
 需要确定内容如下：
 1.系统外部X2时钟是多少? (24MHZ)
