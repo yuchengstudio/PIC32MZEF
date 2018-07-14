@@ -115,6 +115,13 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
  | tips | ``` 1.本实验最终工程请参考步骤9中说明的链接，实际操作请将工程放在图示路径，2.可以在中断函数中设置断点，看是否产生ADC中断【因为该函数的ADC启动是软件实现的DRV_ADC_Start()，所以只启动了一次ADC采样】，3.可以在watch窗口中查看adc_16mData.potValue，看ADC数据是否正常。```|  | 
  
 
+
+## 3.4 使用定时器比较输出作为ADC的触发源
+
+ | 步骤 | 图示 | 说明 |
+ | --- | --- | --- | 
+ |1|||
+
 ### 3.2.1 介绍
 ```
 The overall development flow of ADC Manager consists of: 
