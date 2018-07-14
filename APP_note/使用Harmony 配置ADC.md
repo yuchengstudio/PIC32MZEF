@@ -120,7 +120,7 @@ https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Curiosi
 
  | 步骤 | 图示 | 说明 |
  | --- | --- | --- | 
- |1|||
+ |1|![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_016.jpg) ![images](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures_ADC/Harmony_ADC_017.jpg)  ||
 
 ### 3.2.1 介绍
 ```
