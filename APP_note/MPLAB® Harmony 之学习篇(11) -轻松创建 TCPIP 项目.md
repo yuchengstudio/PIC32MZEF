@@ -18,9 +18,9 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/70005189A.pdf
 ```
 首先我们都得对自己的硬件有一个充分的了解，在基于 PIC32 的 MAC+PHY 的网络调试
 中，我们必须知道：
-MAC 和 PHY 的连接方式： RMII 或者 MII；
-PIC32 这边使用的是默认(R)MII 接口还是备用(R)MII 接口；
-PHY 的具体型号， LAN8740 或者其它；
+* MAC 和 PHY 的连接方式： RMII 或者 MII；
+* PIC32 这边使用的是默认(R)MII 接口还是备用(R)MII 接口；
+* PHY 的具体型号， LAN8740 或者其它；
 Microchip 的 PIC32MZ EF Starter Kit 采用的是 RMII 接口并且使用的是默认接口，和 SK 默
 认搭配的 PHY 板子使用的就是 LAN8740。
 注：
