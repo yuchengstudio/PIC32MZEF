@@ -32,3 +32,4 @@ AETXD#，有 A 前缀那么就用了备用(R)MII 接口，否则为默认(R)MII 
 注：以下 MHC 配置里没有特别标注出来的地方，说明使用的是默认选项。
 ```
 ![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_001.png)
+![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_002.png)
