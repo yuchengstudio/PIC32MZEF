@@ -41,6 +41,8 @@ AETXD#，有 A 前缀那么就用了备用(R)MII 接口，否则为默认(R)MII 
  | 接口名称 | 接口说明 | 备注 |
  | --- | ----- | ----- | 
  | TX_EN | Indicates that valid transmission data is present on TXD[3:0]. In RMII mode, only TXD[1:0] provide valid data |  | 
+ 
+ 
  | TXD0 | The MAC transmits data to the transceiver using this signal in all modes |  |
  | TXD1 | The MAC transmits data to the transceiver using this signal in all modes |  |
  | XTAL1 | External crystal input |  |
