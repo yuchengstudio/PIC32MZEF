@@ -33,3 +33,10 @@ AETXD#，有 A 前缀那么就用了备用(R)MII 接口，否则为默认(R)MII 
 ```
 ![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_001.png)
 ![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_002.png)
+
+
+# 3. TCPIP TCP client 配置
+![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_006.png)
+![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_007.png)
+![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_008.png)
+![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_009.png)
