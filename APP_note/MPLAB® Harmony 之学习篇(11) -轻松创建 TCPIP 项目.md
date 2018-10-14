@@ -37,6 +37,27 @@ AETXD#，有 A 前缀那么就用了备用(R)MII 接口，否则为默认(R)MII 
 ![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_012.png)
 ![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_013.png)
 
+接口说明
+ | 接口名称 | 接口说明 | 备注 |
+ | --- | ----- | ----- | 
+ | TX_EN | Indicates that valid transmission data is present on TXD[3:0]. In RMII mode, only TXD[1:0] provide valid data |  | 
+ | TXD0 | The MAC transmits data to the transceiver using this signal in all modes |  |
+ | TXD1 | The MAC transmits data to the transceiver using this signal in all modes |  |
+ | XTAL1 | External crystal input |  |
+ | CLK_IN | Single-ended clock oscillator input. |  When using a single ended clock oscillator, XTAL2 should be left unconnected.|
+ | RXD0| Bit 0 of the 4 (2 in RMII mode) data bits that are sent by the transceiver on the receive path|  |
+ | RXD1| Bit 1 of the 4 (2 in RMII mode) data bits that are sent by the transceiver on the receive path|  |
+ | RX_ER| This signal is asserted to indicate that an error was detected somewhere in the frame presently being transferred from the transceiver. This signal is also used in EEE mode as RXER when RXDV = 1, and as LPI when RXDV = 0.|  |
+ | CRS_DV| This signal is asserted to indicate the receive medium is non-idle in RMII mode. When a 10BASE-T packet is received, CRS_DV is asserted, but RXD[1:0] is held low until the SFD byte (10101011) is received.|  |
+ | MDC| Serial Management Interface clock |  |
+ | MDIO| Serial Management Interface data input/output |  |
+ | nINT| Active low interrupt output. Place an external resistor pull-up to VDDIO. |  |
+ | nRST | System reset. This signal is active low |  |
+
+ 
+ 
+ 
+ 
 # 3. 基于PIC32 Ethernet Starter kit II的 TCPIP TCP client 配置
 ![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_011.png)
 ![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_006.png)
