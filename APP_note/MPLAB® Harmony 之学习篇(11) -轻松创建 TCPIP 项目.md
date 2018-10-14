@@ -37,14 +37,9 @@ AETXD#，有 A 前缀那么就用了备用(R)MII 接口，否则为默认(R)MII 
 ![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_012.png)
 ![image](https://github.com/yuchengstudio/PIC32MZEF/blob/master/APP_note/pictures/Harmony_TCPIP_013.png)
 
-接口说明
- | 步骤 | 图示 | 说明 |
- | --- | ----- | ----- | 
- | 1 |  |  | 
- | tips | <br/>1.xxx <br/>2.xxx <br/>3.xxx | | 
- | 1 |  |  | 
- | tips | <br/>1.xxx <br/>2.xxx <br/>3.xxx | | 
 
+
+接口说明
 
  | 接口名称 | 接口说明 | 备注 |
  | --- | ----- | ----- | 
